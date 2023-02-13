@@ -1,0 +1,66 @@
+nav {
+    position: fixed;
+    height: 90px;
+    width: 800px;
+    // background-color: #79ADDC;
+    background-color: rgba;
+    // margin: 0 auto;
+    //instead, we'll do
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    //trying to keep it centered, don't think the nav is staying tho
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    //shoves both to left and right
+    font-family: 'Gill Sans';
+    font-size: 15px;
+    text-transform: lowercase;
+
+    .logo{
+    font-size: 20px;
+    width: 92px;
+    height: 42px;
+    // background-color: chocolate;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    }
+
+
+    .links{
+        font-size: 15px;
+        height: 42px;
+        width: 300px;
+        // background-color: darkblue;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #ffffff;
+        text-decoration: none;
+
+        a{
+            color:white;
+            text-decoration: none;
+            
+        }
+    }
+
+    // .line-break{
+    //     line-break: normal;
+    //     color: white;
+    //     border: 1px solid white;
+    // }
+
+    // .hr {
+    //     display: block;
+    //     height: 1px;
+    //     border: 0;
+    //     border-top: 1px solid #ccc;
+    //     margin: 1em 0;
+    //     padding: 0;
+    // }
+}
